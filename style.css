@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    width: 500px;
+}
+
+#container{
+    background: #fff;
+    padding: 15px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#new-task{
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 5px;
+    border: 1px solid #03BDC4;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+#add-task{
+    padding: 10px;
+    width: 100%;
+    background-color: #03BDC4;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#add-task span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#task-list{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: rgba(3, 189, 196, 0.4);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#task-list li span{
+    flex-grow: 1;
+    margin-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+button:not(#add-task){
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#delete-button{
+    background: red;
+}
+
+#edit-button{
+    background: #03BDC4;
+}
