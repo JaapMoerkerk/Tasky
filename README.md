@@ -1,4 +1,4 @@
-# Tasky
+# [Tasky](https://chromewebstore.google.com/detail/tasky/ibeflnfamgblkabmalgjblamankahhlj)
 A simple to-do list as a Chrome extension.
 ## Tech stack and details
 ### Description
